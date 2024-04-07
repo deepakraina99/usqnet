@@ -19,6 +19,7 @@ python test.py --data_dir dataset/{dir_name} --load_model outputs/{model_name}.p
 ````
 
 ### Citation
+(will be updated soon)
 ```
 @article{raina2024deep,
   title={Deep Learning Model for Quality Assessment of Urinary Bladder Ultrasound Images using Multi-scale and Higher-order Processing},
@@ -27,7 +28,7 @@ python test.py --data_dir dataset/{dir_name} --load_model outputs/{model_name}.p
   volume={??},
   number={?},
   pages={???--???},
-  year={2023},
+  year={2024},
   publisher={IEEE}
 }
 ```
