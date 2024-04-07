@@ -26,7 +26,6 @@ def get_weighted_sampler(train_labels, cls_labels):
         )
     return weighted_sampler
 
-# load_data('/home/mythra/Deepak/rus_ws/src/quality_assessment/usqnet/dataset/')
 
 def train_model(model, dataloaders, criterion, optimizer, scheduler, num_epochs=100, fold=0, device='cuda', model_dir='/trained_models/'):
     since = time.time()

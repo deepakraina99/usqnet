@@ -1,6 +1,6 @@
 # USQNet
 
-This is the official source code repository for the paper titled "Deep Learning Model for Quality Assessment of Urinary Bladder Ultrasound Images using Multi-scale and Higher-order Processing" (Paper link). The focus of our work is to address the challenges in Autonomous Ultrasound Image Quality Assessment (US-IQA). 
+This is the official source code repository for the paper titled "Deep Learning Model for Quality Assessment of Urinary Bladder Ultrasound Images using Multi-scale and Higher-order Processing" (Paper link). The focus of our work is to address the challenges in Autonomous Ultrasound Image Quality Assessment (US-IQA). Plase refer to the paper for more details.
 
 ### Installations
 ````

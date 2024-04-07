@@ -59,18 +59,9 @@ def main(args):
     use_cuda = torch.cuda.is_available()
     device = 'cuda' if use_cuda else 'cpu'
     print('device:', device)
-    net = USQNET() #USQNet
-    # net = USQNET(ms_block=False, lsop_block=False, gsop_block=False) #RN50+GAP
-    # net = USQNET(ms_block=True, lsop_block=False, gsop_block=False) #RN50+MS+GAP
-    # net = USQNET(ms_block=True, lsop_block=True, gsop_block=False) #RN50+MS+LSoP+GAP
-    # net = USQNET(ms_block=False, lsop_block=True, gsop_block=True) #RN50+L2GSoP
+    net = USQNET() 
     print(net)
     net = net.to(device)
-    params = [p for p in net.parameters() if p.requires_grad]
-    total_params = sum(p.numel() for p in net.parameters())
-    total_train_params = sum(p.numel() for p in net.parameters() if p.requires_grad)
-    print("Total Param: ", total_params)
-    print("Total Train Param: ", total_train_params)
 
     # hyper-parameters
     if args.optimizer == "sgd":
